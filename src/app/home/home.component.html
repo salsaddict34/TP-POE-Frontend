@@ -1,0 +1,29 @@
+<h1>Emargements</h1>
+
+<table>
+    <caption>
+        Cyber developer course 2024
+    </caption>
+    <thead>
+        <tr>
+            <th scope="col">&nbsp;</th>
+            <th scope="col">Prénom</th>
+            <th scope="col">Nom</th>
+            <th scope="col">&nbsp;</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let intern of interns">
+            <td>&nbsp;</td>
+            <td>{{intern.firstname}}</td>
+            <td>{{intern.lastname}}</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <!--<tr>
+            <th scope="row" colspan="2"></th>
+            <td></td>
+        </tr>-->
+    </tfoot>
+</table>
