@@ -17,6 +17,16 @@
             </div>
         </div>
     </fieldset>
+    <fieldset>
+        <div class="form-field">
+            <label for="poeSelect">Choisissez une POE:</label>
+            <select name="poeSelect" id="poeSelect" [[(ngModel)]="selectedPoe" ]>
+                <option value="">--Please choose an option--</option>
+                <option *ngFor="let poe of poes" [value]="poe">{{poe.title}} - durée {{poe.duration}} heure(s) </option>
+            </select>
+        </div>
+        <p>you choose {{selectedPoe.title}} {{selectedPoe.duration}} </p>
+    </fieldset>
     <div class="form-field">
         <button [disabled]="internForm.invalid" type="submit">Ajouter</button>
     </div>

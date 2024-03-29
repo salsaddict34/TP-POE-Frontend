@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { Intern } from './types/intern.type';
 import { InternService } from './services/intern.service';
 import { take } from 'rxjs';
+import { PoeService } from '../poe/services/poe.service';
+import { Poe } from '../poe/types/poe.types';
 
 @Component({
   selector: 'app-home',
@@ -15,7 +17,7 @@ export class HomeComponent {
    */
   public interns: Array<Intern> = []
   constructor(
-    private _service: InternService
+    private _service: InternService,
   ) { }
 
   ngOnInit(): void {
