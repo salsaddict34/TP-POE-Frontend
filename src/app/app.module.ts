@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './home/home.module';
 import { PoeModule } from './poe/poe.module';
+import { Router } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -19,4 +20,5 @@ import { PoeModule } from './poe/poe.module';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
