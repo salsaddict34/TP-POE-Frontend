@@ -1,0 +1,89 @@
+{
+  "interns": [
+    {
+      "lastname": "ARNAUD",
+      "firstname": "Manon",
+      "id": "ea29"
+    },
+    {
+      "lastname": "AUBERT",
+      "firstname": "Jean-luc",
+      "id": "52ac"
+    },
+    {
+      "lastname": "BERNARDIN",
+      "firstname": "Bruno",
+      "id": "ac35"
+    },
+    {
+      "lastname": "BERTON",
+      "firstname": "Dorine",
+      "id": "a390"
+    },
+    {
+      "lastname": "BETTAN",
+      "firstname": "Frédéric",
+      "id": "5f1f"
+    },
+    {
+      "lastname": "BONNET",
+      "firstname": "Fabien",
+      "id": "1901"
+    },
+    {
+      "lastname": "CHENU",
+      "firstname": "Guillaume",
+      "id": "a716"
+    },
+    {
+      "lastname": "DE BOUARD",
+      "firstname": "Anne-claire",
+      "id": "c73a"
+    },
+    {
+      "lastname": "DUMONET",
+      "firstname": "Vincent",
+      "id": "f525"
+    },
+    {
+      "lastname": "EL HACHIMI ALAOUI",
+      "firstname": "Imane",
+      "id": "f8d3"
+    },
+    {
+      "lastname": "GORMAND",
+      "firstname": "Loïc",
+      "id": "954d"
+    },
+    {
+      "lastname": "PROVO",
+      "firstname": "Sabine",
+      "id": "5a9d"
+    },
+    {
+      "lastname": "ROCK",
+      "firstname": "Bertrand",
+      "id": "7813"
+    },
+    {
+      "lastname": "ROFFIDAL",
+      "firstname": "Yann",
+      "id": "bea2"
+    },
+    {
+      "lastname": "TROUCHE",
+      "firstname": "Boris",
+      "id": "bc7a"
+    },
+    {
+      "lastname": "TURTI",
+      "firstname": "Thomas",
+      "id": "5db6"
+    },
+    {
+      "id": "fc7b",
+      "lastname": "BOND",
+      "firstname": "James"
+    }
+  ]
+}

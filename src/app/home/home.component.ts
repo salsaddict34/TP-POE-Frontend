@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Intern } from './types/intern.type';
 import { InternService } from './services/intern.service';
+import { take } from 'rxjs';
 
 @Component({
   selector: 'app-home',
@@ -18,6 +19,12 @@ export class HomeComponent {
   ) { }
 
   ngOnInit(): void {
-    this.interns = this._service.interns
+    this._service.findAll()
+      .pipe(
+        take(1)
+      )
+      .subscribe((interns: Intern[]) => {
+        this.interns = interns
+      })
   }
 }
