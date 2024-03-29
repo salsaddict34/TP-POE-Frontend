@@ -85,5 +85,11 @@
       "lastname": "BOND",
       "firstname": "James"
     }
+  ],
+  "poes": [
+    {
+      "title": "Développeur Cybersécurité",
+      "duration": 400
+    }
   ]
 }
