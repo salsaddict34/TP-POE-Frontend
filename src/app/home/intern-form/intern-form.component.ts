@@ -15,10 +15,6 @@ import { take } from 'rxjs';
 export class InternFormComponent {
   public internForm: FormGroup = new FormGroup({})
   public poes: Array<Poe> = []
-  public selectedPoe: Poe = {
-    title: "",
-    duration: 1
-  }
 
   constructor(
     private _formBuilder: FormBuilder,
@@ -41,7 +37,8 @@ export class InternFormComponent {
         [
           Validators.required,
         ]
-      ]
+      ],
+      poe: []
     })
     this._poeService.findAll()
       .pipe(
@@ -53,7 +50,6 @@ export class InternFormComponent {
   }
 
   onChange(): void {
-
   }
 
   onSubmit(): void {

@@ -84,6 +84,16 @@
       "id": "fc7b",
       "lastname": "BOND",
       "firstname": "James"
+    },
+    {
+      "id": "dc1c",
+      "lastname": "Nouveau",
+      "firstname": "Jesuis",
+      "poe": {
+        "id": "955d",
+        "title": "SecretService",
+        "duration": "35"
+      }
     }
   ],
   "poes": [
@@ -95,6 +105,11 @@
       "id": "955d",
       "title": "SecretService",
       "duration": "35"
+    },
+    {
+      "id": "6ee8",
+      "title": "Cuisine Américaine",
+      "duration": "106"
     }
   ]
 }
