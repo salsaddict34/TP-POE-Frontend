@@ -90,6 +90,11 @@
     {
       "title": "Développeur Cybersécurité",
       "duration": 400
+    },
+    {
+      "id": "955d",
+      "title": "SecretService",
+      "duration": "35"
     }
   ]
 }
