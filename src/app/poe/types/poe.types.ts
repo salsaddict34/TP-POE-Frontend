@@ -1,4 +1,4 @@
 export type Poe = {
-    Title: string,
-    Duration: number
+    title: string,
+    duration: number
 }

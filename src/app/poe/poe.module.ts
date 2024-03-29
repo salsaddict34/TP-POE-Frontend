@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PoeComponent } from './poe.component';
+import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -9,7 +11,9 @@ import { PoeComponent } from './poe.component';
     PoeComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule,
+    HttpClientModule
   ]
 })
 export class PoeModule { }
