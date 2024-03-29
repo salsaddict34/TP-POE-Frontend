@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Poe } from './types/poe.types';
 import { PoeService } from './services/poe.service';
 import { take } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-poe',
@@ -15,7 +16,8 @@ export class PoeComponent {
      */
   public poes: Array<Poe> = []
   constructor(
-    private _service: PoeService
+    private _service: PoeService,
+    private _router: Router
   ) { }
 
   ngOnInit(): void {
@@ -26,5 +28,9 @@ export class PoeComponent {
       .subscribe((poes: Poe[]) => {
         this.poes = poes
       })
+  }
+
+  onClick(): void {
+    this._router.navigate(['/poe-add'])
   }
 }

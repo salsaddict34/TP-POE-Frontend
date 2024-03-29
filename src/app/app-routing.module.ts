@@ -25,6 +25,11 @@ const routes: Routes = [
     component: PoeComponent,
     pathMatch: 'full'
   },
+  // {
+  //   path: 'poe-add',
+  //   // component: PoeFormComponent,
+  //   pathMatch: 'full'
+  // },
   {
     path: '**',
     redirectTo: 'home',
