@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { InternFormComponent } from './home/intern-form/intern-form.component';
+import { PoeComponent } from './poe/poe.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,11 @@ const routes: Routes = [
   {
     path: 'intern-add',
     component: InternFormComponent,
+    pathMatch: 'full'
+  },
+  {
+    path: 'poe',
+    component: PoeComponent,
     pathMatch: 'full'
   },
   {
