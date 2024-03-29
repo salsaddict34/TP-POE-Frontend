@@ -94,6 +94,16 @@
         "title": "SecretService",
         "duration": "35"
       }
+    },
+    {
+      "id": "16eb",
+      "lastname": "Fonfec",
+      "firstname": "Sophie",
+      "poe": {
+        "id": "6ee8",
+        "title": "Cuisine Américaine",
+        "duration": "106"
+      }
     }
   ],
   "poes": [
